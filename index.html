@@ -28,17 +28,16 @@ window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=
 </script>
 <script>
 	pushFunction(){
-	var fname = document.querySelector('#push_fname').value;
+	var gender = document.querySelector('#push_gender').value;
 window._pcq = window._pcq || [];
-window._pcq.push(['tag', 'name',fname);
+window._pcq.push(['tag', 'name',gender);
 	}
 </script>
 
 
 <body>
 <h1>This is for https:// website.</h1>
-	<span>First Name: <input type="name" id="push_fname"></input></span><br>
-	<span>Last Name: <input type="name" id="push_lname"></input></span><br>
+	<span>Gender: <input type="text" id="push_gender"></input></span><br>
 	<button id='clicked' function="pushFunction()">Submit</button>
 </body>
 </html>
